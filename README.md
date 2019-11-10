@@ -8,10 +8,10 @@ No <b>Fork</b> do Fernando, há bastante funcionalidades e também tem um <i>sou
 
 ---
 
-<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo2.png" height= "49%" width= "47%" align="right">
-<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo.png" height= "49%" width= "47%"> <br/><br/>
-<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo4.png" height= "49%" width= "47%px" align="right">
-<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo3.png" height= "49%" width= "47%">
+<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo2.png" height= "49%" width= "47%" align="right"><br/>
+<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo.png" height= "49%" width= "47%"> <br/>
+<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo4.png" height= "49%" width= "47%px" align="right"><br/>
+<img src ="https://raw.githubusercontent.com/elvissouza/Learning-Flexbox/master/assets/websiteDemo3.png" height= "49%" width= "47%"><br/>
 
 ---
 
