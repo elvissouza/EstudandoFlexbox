@@ -1,40 +1,40 @@
-        /*PARAMETROS DO CONTAINER PAI, QUE INFLUENCUIA NOS FILHOS (ITENS) FLEX CONTAINERS*/
-        /*DIREÇÃO DOS ELEMENTOS FILHOS -        FLEX-DIRECTION           */
-        /* 
+/*PARAMETROS DO CONTAINER PAI, QUE INFLUENCUIA NOS FILHOS (ITENS) FLEX CONTAINERS*/
+/*DIREÇÃO DOS ELEMENTOS FILHOS -        FLEX-DIRECTION           */
+/* 
             |row (elementos poscionados em linha) 
             |row-reverse (elementos poscionados em linha, invertendo os itens) 
             |colunm, colunm-reverse
         */
-        /*-------------------------------------------*/
-        /*QUEBRA DE LINHA -        FLEX-WRAP          */
-        /* 
+/*-------------------------------------------*/
+/*QUEBRA DE LINHA -        FLEX-WRAP          */
+/* 
             |nowrap (sem quebra de linha entre os elementos) 
             |wrap (com quebra de linha entre os elementos)
             |wrap-reverse (quebra de linha, invertendo os elementos)
         */
-        /*-------------------------------------------*/
-        /* DECLARAÇÃO ÚNICA, DEFININDOS OS DOIS ATRIBUTOS ACIMA -        FLEX-FLOW           
+/*-------------------------------------------*/
+/* DECLARAÇÃO ÚNICA, DEFININDOS OS DOIS ATRIBUTOS ACIMA -        FLEX-FLOW           
             |flex-flow: row nowrap
         */
-        /*-------------------------------------------*/
-        /* ALINHAMENTO HORIZONTAL DOS ELEMENTOS FILHO -        JUSTIFY-CONTENT           */
-        /* 
+/*-------------------------------------------*/
+/* ALINHAMENTO HORIZONTAL DOS ELEMENTOS FILHO -        JUSTIFY-CONTENT           */
+/* 
             |flex-start (alinha os elementos horizontalmente a esquerda) 
             |flex-end (alinha os elementos horizontalmente a direita) 
             |center (alinha os elementos horizontalmente ao centro)
             |space-between (espaçamento entre eles) 
             |space-around (espaçamento entre os itens e as extremidades) 
         */
-        /*-------------------------------------------*/
-        /* ALINHAMENTO VERTICAL DOS ELEMENTOS FILHO -        ALIGN-ITEMS          */
-        /* 
+/*-------------------------------------------*/
+/* ALINHAMENTO VERTICAL DOS ELEMENTOS FILHO -        ALIGN-ITEMS          */
+/* 
             |strech (que os elementos cresçam igualmente na vertical) 
             |flex-start (alinha os itens topo verticalmente) 
             |flex-end (alinha a base do container verticalmente) 
             |center (posiciona ao centro)*
             |baseline (posciona todos elementos pela base, independente do tamanho do conteudo) /
         /*-------------------------------------------*/
-        /*ALINHAMENTO VERTICAL BASEADO NO CONTEÚDO DE CADA ITEM/ELEMENTOS (SÓ POSCIONA VERTICALMENTE COM A QUEBRA DO WRAP) -        ALIGN-CONTENT  
+/*ALINHAMENTO VERTICAL BASEADO NO CONTEÚDO DE CADA ITEM/ELEMENTOS (SÓ POSCIONA VERTICALMENTE COM A QUEBRA DO WRAP) -        ALIGN-CONTENT  
          |strech (que os elementos cresçam igualmente na vertical) 
             |flex-start (alinha os itens topo verticalmente os itens mesmo com a quebra de linha) 
             |flex-end (alinha a base do container verticalmente os itens mesmo com a quebra de linha) 
@@ -44,48 +44,48 @@
             |space-around (posciona todos elementos com espaçamentos entre as linhas, mas tambem com espaço em cima e embaixo)
         
         */
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*PARAMETROS DOS ELEMENTYOS FILHO - FLEX FILHOS*/
-        /*POSCIONA OS FILHOS DEPENDENDO DA ORDEM DENTRO DO PAI(CONTAINER) -        ORDER          */
-        /* 
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*PARAMETROS DOS ELEMENTYOS FILHO - FLEX FILHOS*/
+/*POSCIONA OS FILHOS DEPENDENDO DA ORDEM DENTRO DO PAI(CONTAINER) -        ORDER          */
+/* 
             |order: 1,2,3,4,5,6
         */
-        /*-------------------------------------------*/
-        /*ALINHAMENTO DE UM UNICO ITEM -        ALIGN-SELF          */
-        /* 
+/*-------------------------------------------*/
+/*ALINHAMENTO DE UM UNICO ITEM -        ALIGN-SELF          */
+/* 
             |align: center, flex-start, flex-end, baseline, stretch, auto
             quando o container estiver em row, ele faz o alinhamento na vertical
             quando o container estiver em colunm, ele faz o alinhamento horizontal
         */
-        /*-------------------------------------------*/
-        /*-------------------------------------------*/
-        /*ALINHAMENTO DE UM UNICO ITEM -        FLEX-GROW          */
-        /* 
+/*-------------------------------------------*/
+/*-------------------------------------------*/
+/*ALINHAMENTO DE UM UNICO ITEM -        FLEX-GROW          */
+/*
             |1: todos os itens a mesma largura
             caso defina um grow maior para um elemento filho do container, ele ficara maior que os outros demais filhos
         */
-        /*-------------------------------------------*/
-        /*DEFINE UM TAMANHO INICIAL PARA ESSE ITENS, QUANDO O GROW ESTIVER ATIVADO -        FLEX-BASIS          */
-        /* 
+/*-------------------------------------------*/
+/*DEFINE UM TAMANHO INICIAL PARA ESSE ITENS, QUANDO O GROW ESTIVER ATIVADO -        FLEX-BASIS          */
+/* 
             |20px: Definindo tamanho inicial de todos os elementos filhos em 20px
         */
-        /*-------------------------------------------*/
-        /*CAPACIDADE DE REDUÇÃO DO ITEM, AO CONTRARIO DO GROW -        FLEX-SHRINK          */
-        /* 
+/*-------------------------------------------*/
+/*CAPACIDADE DE REDUÇÃO DO ITEM, AO CONTRARIO DO GROW -        FLEX-SHRINK          */
+/* 
             |1: O item que tiver, diminuira em relação ao demais itens
         */
-        /*-------------------------------------------*/
-        /*FORMA RESUMIDA DE ESCREVER ESSA PROPRIEDADE - FLEX
+/*-------------------------------------------*/
+/*FORMA RESUMIDA DE ESCREVER ESSA PROPRIEDADE - FLEX
             |FLEX: 1 1 300px
         */
